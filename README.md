@@ -66,37 +66,6 @@ Embora o foco inicial de desenvolvimento tenha sido a integração com o **ERP C
 
 ---
 
-## 🚀 Instalação e configuração
-
-### 1️⃣ Clonar o repositório
-```bash
-git clone https://github.com/usuario/sistema-dum14.git
-cd sistema-dum14
-```
-
-### 2️⃣ Criar e ativar o ambiente virtual
-```bash
-python -m venv venv
-venv\Scripts\activate      # Windows
-source venv/bin/activate   # Linux / Mac
-```
-
-### 3️⃣ Instalar as dependências
-```bash
-pip install -r requirements.txt
-```
-
-### 4️⃣ Configurar o banco de dados
-Edite o arquivo `config.py` e adicione suas credenciais:
-```python
-DB_CONFIG = {
-    "server": "SEU_SERVIDOR_SQL",
-    "database": "NOME_DO_BANCO",
-    "username": "USUARIO",
-    "password": "SENHA"
-}
-```
-
 ### 5️⃣ Executar o servidor
 ```bash
 python app/dum14.py
